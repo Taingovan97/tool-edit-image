@@ -1,0 +1,42 @@
+.home {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.home .div-1 {
+    background-color: rgba(255, 255, 255, 1);
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+.home .title {
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.home .frame-1 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.home .input-field-instance {
+    flex: 0 0 auto !important;
+}
+
+.home .btn {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 438px !important;
+    margin-left: 5px;
+}
+
